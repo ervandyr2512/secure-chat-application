@@ -1,0 +1,8 @@
+node_modules/
+*.pem
+demo-*.txt
+demo-*.pem
+rsa-*.pem
+rsa-*.txt
+aes-data.json
+AFL-2_Report.md

@@ -1,0 +1,21 @@
+{
+  "name": "secure-chat-crypto",
+  "version": "1.0.0",
+  "description": "AFL-2 Kriptografi: hash, digital signature, encryption, secure chat app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "client": "node client.js",
+    "malicious": "node malicious-server.js",
+    "report": "node build-report.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0",
+    "node-forge": "^1.3.1",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "MIT"
+}
